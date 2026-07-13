@@ -1,0 +1,35 @@
+# --- Agent orchestration ---
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-google-genai>=2.0.0   # free-tier Gemini LLM + embeddings
+langchain-core>=0.3.0
+
+# --- UI ---
+streamlit>=1.38.0
+
+# --- Embeddings / matching (Gemini Embedding API + local vector index) ---
+faiss-cpu>=1.8.0
+
+# --- AWS (S3 storage via IAM instance role, no hardcoded keys) ---
+boto3>=1.35.0
+
+# --- Resume / document parsing ---
+pypdf>=4.3.0
+python-docx>=1.1.0
+
+# --- Data validation / config ---
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+pyyaml>=6.0.1
+
+# --- Storage ---
+sqlalchemy>=2.0.0
+
+# --- Utilities ---
+python-dotenv>=1.0.1
+tenacity>=8.5.0          # retries / backoff for guardrails.rate_limiter
+
+# --- Testing / CI ---
+pytest>=8.3.0
+pytest-mock>=3.14.0
+ruff>=0.6.0               # linting, used in GitHub Actions

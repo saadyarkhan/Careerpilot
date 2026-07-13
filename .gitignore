@@ -1,0 +1,19 @@
+# Virtual Environment (is folder ko ignore karna sabse zaroori hai)
+.venv/
+venv/
+ENV/
+
+# API Keys aur Secrets (Aapki .env file isi list me hai)
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / VS Code settings
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db

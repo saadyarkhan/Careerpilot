@@ -8,7 +8,7 @@ langchain-core>=0.3.0
 streamlit>=1.38.0
 
 # --- Embeddings / matching (Gemini Embedding API + local vector index) ---
-faiss-cpu>=1.8.0
+pinecone>=9.1.0
 
 # --- AWS (S3 storage via IAM instance role, no hardcoded keys) ---
 boto3>=1.35.0
